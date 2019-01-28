@@ -1,0 +1,250 @@
+body{
+	margin: 0px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+
+.contenedor{
+	display: flex;
+	justify-content: space-between;
+	background:  #ffeab3;
+	height: 100px;
+	align-items: center;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}
+
+.logo{
+	background-image: url('../imagenes/logo.jpeg');
+	background-size: 120px 53px;
+	border: 1px solid;
+	width: 120px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 100px;
+}
+
+.nav_right{
+	display: flex;
+}
+
+li{
+	list-style: none;
+	margin: 0px 50px;
+}
+
+/*.carrousel{
+	border: 1px solid;
+	height: 400px;
+	background: #fffddf;
+}*/
+
+.servicios{
+	background: #fffddf;
+/*	height: 500px;*/
+	border: 1px solid;
+	margin-top: 150px;
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: space-around;
+	margin-bottom: 150px;
+}
+
+.left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: -280px;
+}
+
+.right{
+	display: flex;
+	align-items: center;
+}
+
+.dig {
+	border: 1px solid;
+	height: 250px;
+	width: 500px;
+	margin-bottom: 125px;
+	background-color: lightblue;
+	text-align: center;
+
+}
+
+.sis{
+	border: 1px solid;
+	height: 250px;
+	width: 500px;
+	/*align-self: center;*/
+	background-color: lightblue;
+	text-align: center;
+}
+
+.auto{
+	border: 1px solid;
+	height: 250px;
+	width: 500px;
+	margin-top: 125px;
+	background-color: lightblue;
+	text-align: center;
+}
+
+.news_body{
+	height: 250px;
+	border: 1px solid;
+	margin-bottom: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: lightblue;
+}
+
+.news_body_form{
+	height: 30px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid;
+}
+
+.news_body_form.text{
+	width: 300px;
+	background-image: url('../imagenes/envelope.svg');
+	background-repeat: no-repeat;
+	margin: 5px;
+	padding: 10px;
+	padding-left: 40px;
+	background-position-x: 5px;
+
+}
+
+.clientes_top{
+	border: 1px solid;
+	text-align: center;
+	margin-bottom: 150px;
+	background: lightblue;
+}
+
+.clientes{
+	height: 500px;
+	/*border: 1px solid;*/
+	margin-bottom: 150px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: white;
+}
+
+.cliente{
+	border: 1px solid;
+	border-radius: 5px;
+	background: lightblue;
+	width: 500px;
+}
+
+.clientes_contenedor_imagenes{
+/*	border: 2px solid red;*/
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	background: white;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.clientes_contenedor_imagenes img{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.clientes_detalles{
+	margin: 15px;
+	background: white;
+	text-align: center;
+	height: 150px;
+	border-radius: 5px;
+}
+
+.clientes_detalles a{
+	border: 1px solid;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.clientes_contenedor_imagenes img{
+	/*width: 500px;
+	height: 200px;*/
+	object-fit: cover;
+}
+
+.footer{
+	display: flex;
+	height: 200px;
+	justify-content: space-between;
+	align-items: center;
+	background: lightblue;
+}
+
+.li_footer{
+	margin: 10px 10px;
+}
+
+.news_text{
+	border-radius: 5px;
+	height: 30px;
+	padding: 5px 20px;
+	border: 1px solid;
+	background-image: url('../imagenes/envelope.svg');
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	background-position-x: 5px;
+}
+
+.boton_news{
+	background:  #ffdd9e;
+	border-radius: 5px;
+	height: 40px;
+	border: 1px solid;
+	display: block;
+	margin-top: 10px;
+	background: transparent;
+	color: black;
+}
+
+.social{
+	margin-right: 50px;
+}
+
+.social_link{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	/*border: 1px solid black;*/
+}
+
+.social_link.twitter{
+	background-image: url('../imagenes/twitter.png');
+	background-size: 50px 50px;
+}
+
+.social_link.fb{
+	background-image: url('../imagenes/facebook.png');
+	background-size: 50px 50px;
+}
+
+.social_link.git{
+	background-image: url('../imagenes/git.svg');
+	background-size: 50px 50px;
+}
+
+.social_link.insta{
+	background-image: url('../imagenes/insta.png');
+	background-size: 50px 50px;
+}
