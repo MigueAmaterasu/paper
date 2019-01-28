@@ -1,0 +1,8 @@
+﻿CREATE TABLE "Usuarios"(
+"Usuario" varchar[30] primary key,
+"Nombre" varchar[30],
+"Apellidos" varchar[30],
+"Email" character varying[50],
+"Fecha de Nacimiento" date,
+"Contraseña" varchar [10]
+)
