@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MigueAmaterasu/paper/issues"
   },
-  "homepage": "https://github.com/MigueAmaterasu/paper#readme"
+  "homepage": "https://github.com/MigueAmaterasu/paper#readme",
+  "dependencies": {
+    "reactjs": "^1.0.0"
+  }
 }
